@@ -3,10 +3,12 @@ package com.example.advai.mqttawsiotmosquittosecureconnection;
 import com.amazonaws.regions.Regions;
 
 /**
- * Created by advai on 1/26/2018.
+ * Created by advait on 1/26/2018.
  */
 
 public class Constants {
+
+    // change the values and put your own. If you don't have your own keystore, then leave KEYSTORE_NAME, KEYSTORE_PASSWORD and CERTIFICATE_ID fields as it is.
 
     // AWS Iot CLI describe-endpoint call returns: XXXXXXXXXX.iot.<region>.amazonaws.com
     public static final String CUSTOMER_SPECIFIC_ENDPOINT = "XXXXXXXXXX.iot.us-east-1.amazonaws.com";
